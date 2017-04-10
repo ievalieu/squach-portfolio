@@ -1,0 +1,39 @@
+html {
+	height: 100%;
+}
+body {
+	background: #fac7c6;
+	color: white;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*Laptops/Desktop*/
+@media screen and (min-width: 1240px){
+	body {
+		background: #fac7c6;
+	}
+}
+/*iPads*/
+@media screen and (min-width: 945px) and (max-width: 1240px){
+	body {
+		background: orange;
+	}
+	
+}
+/*Filler*/
+@media screen and (min-width: 760px) and (max-width: 945px){
+	body {
+		background: yellow;
+	}
+
+}
+/*Smart Phones*/
+@media only screen and (max-width: 760px) {
+	body {
+		background: green;
+	}
+	
+}

@@ -1,0 +1,13 @@
+header {
+	border: 4px solid #fff;
+	background: #d65859;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 75px;
+}
+.brand {
+	font-size: 50px;
+	font-family: "Droid Serif", serif;
+}
