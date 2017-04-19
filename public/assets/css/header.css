@@ -12,6 +12,10 @@ header {
 	font-family: "Droid Serif", serif;
 	text-shadow: 1px 1px 1px black;
 }
+.brand-name a {
+	text-decoration: none;
+	color: white;
+}
 .brand-logo {
 	border: 1px solid red;
 	width: 50px;

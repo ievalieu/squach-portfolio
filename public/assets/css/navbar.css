@@ -8,9 +8,9 @@ nav {
 	align-items: center;
 	height: 50px;
 }
-a {
+nav a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 24px;
 	color: #fff;
 	font-family: "Lato", sans-serif;
 	text-shadow: 1px 1px 1px black;
@@ -29,19 +29,25 @@ a:hover {
 	body {
 		background: orange;
 	}
-	
+	nav a {
+		font-size: 22px;
+	}
 }
 /*Filler*/
 @media screen and (min-width: 760px) and (max-width: 945px){
 	body {
 		background: yellow;
 	}
-
+	nav a {
+		font-size: 20px;
+	}	
 }
 /*Smart Phones*/
 @media only screen and (max-width: 760px) {
 	body {
 		background: green;
 	}
-	
+	nav a {
+		font-size: 18px;
+	}	
 }

@@ -1,0 +1,37 @@
+{
+  "name": "squach-portfolio",
+  "version": "1.0.0",
+  "description": "Silvia Quach's Art Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsevalieu/squach-portfolio.git"
+  },
+  "author": "Eva Lieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsevalieu/squach-portfolio/issues"
+  },
+  "homepage": "https://github.com/itsevalieu/squach-portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.5",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongojs": "^2.4.0",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}

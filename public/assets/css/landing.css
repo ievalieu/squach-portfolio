@@ -50,33 +50,15 @@
 		margin: 0 200px;
 	}
 	.landing-image {
-		border-top: none;
 		height: 500px;
-		background: #000;
 	}
 	.landing-content h2 {
-		color: #000;
 		font-size: 40px;
-		text-align: center;
-		border: 3px solid #d65859;
-		border-bottom: none;
-		padding: 15px 0 0 0;
-	}
-	.landing-content {
-		background: white;
-		border-top: none;
 	}
 	.landing-content p {
-		border: 3px solid #d65859;
-		border-top: none;
-		padding: 15px 50px;
-		color: #000;
 		line-height: 30px;
 		font-size: 22px;
 	}
-	.landing-content p::first-letter {
-		font-size: 50px;
-	}	
 }
 /*Filler*/
 @media screen and (min-width: 760px) and (max-width: 945px){
@@ -87,32 +69,17 @@
 		margin: 0 150px;
 	}
 	.landing-image {
-		border-top: none;
-		height: 500px;
-		background: #000;
+		height: 400px;
 	}
 	.landing-content h2 {
-		color: #000;
-		font-size: 40px;
-		text-align: center;
-		border: 3px solid #d65859;
-		border-bottom: none;
-		padding: 15px 0 0 0;
-	}
-	.landing-content {
-		background: white;
-		border-top: none;
+		font-size: 35px;
 	}
 	.landing-content p {
-		border: 3px solid #d65859;
-		border-top: none;
-		padding: 15px 50px;
-		color: #000;
-		line-height: 30px;
-		font-size: 22px;
+		line-height: 25px;
+		font-size: 20px;
 	}
 	.landing-content p::first-letter {
-		font-size: 50px;
+		font-size: 30px;
 	}
 }
 /*Smart Phones*/
@@ -124,31 +91,16 @@
 		margin: 0px 0px;
 	}
 	.landing-image {
-		border-top: none;
-		height: 250px;
-		background: #000;
+		height: 350px;
 	}
 	.landing-content h2 {
-		color: #000;
-		font-size: 20px;
-		text-align: center;
-		border: 3px solid #d65859;
-		border-bottom: none;
-		padding: 15px 0 0 0;
-	}
-	.landing-content {
-		background: white;
-		border-top: none;
+		font-size: 30px;
 	}
 	.landing-content p {
-		border: 3px solid #d65859;
-		border-top: none;
-		padding: 15px 50px;
-		color: #000;
-		line-height: 30px;
-		font-size: 22px;
+		line-height: 20px;
+		font-size: 18px;
 	}
 	.landing-content p::first-letter {
-		font-size: 50px;
+		font-size: 25px;
 	}
 }
