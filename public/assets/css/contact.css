@@ -1,5 +1,22 @@
-
-
+.contact-section {
+	border: 1px solid black;
+	background: #fff;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.contact-header {
+	border: 1px solid red;
+	color: black;
+}
+.contact-form {
+	border: 1px solid pink;
+}
+.contact-form form {
+	display: flex;
+	flex-flow: column;
+}
 /*Laptops/Desktop*/
 @media screen and (min-width: 1240px){
 	body {
