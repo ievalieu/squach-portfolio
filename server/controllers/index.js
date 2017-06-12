@@ -26,7 +26,19 @@ var router = express.Router();
 // }
 
 
+router.get("/", function(req, res){
+ 	res.render("index", {layout:"index-body.handlebars"});
+});
 router.get("/portfolio", function(req, res){
  	res.render("index", {layout:"portfolio.handlebars"});
 });
+router.get("/contact", function(req, res){
+ 	res.render("index", {layout:"contact.handlebars"});
+});
+router.get("/resume", function(req, res){
+ 	res.render("index", {layout:"index.handlebars"});
+});
 module.exports = router;
+
+//index is home
+//main should be layout for website
