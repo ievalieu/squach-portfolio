@@ -30,12 +30,16 @@ router.get("/", function(req, res){
  	res.render("index", {layout:"index-body.handlebars"});
 });
 router.get("/portfolio", function(req, res){
+	//enter object for portfolio art
+
  	res.render("index", {layout:"portfolio.handlebars"});
 });
 router.get("/contact", function(req, res){
+	//enter object for contact info
  	res.render("index", {layout:"contact.handlebars"});
 });
 router.get("/resume", function(req, res){
+	//redirect to resume pdf
  	res.render("index", {layout:"index.handlebars"});
 });
 module.exports = router;
