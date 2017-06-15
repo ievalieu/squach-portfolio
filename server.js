@@ -36,8 +36,8 @@ var app = express();
 
 //View Engine for Handlebars
 //=========================================================
-app.set("views", path.join(__dirname, "views/layouts"));
-app.engine("handlebars", exphbs({defaultLayout: "index"}));
+app.set("views", path.join(__dirname, "views"));
+app.engine("handlebars", exphbs({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
 //BodyParser Middleware

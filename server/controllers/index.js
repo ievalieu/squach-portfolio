@@ -27,20 +27,20 @@ var router = express.Router();
 
 
 router.get("/", function(req, res){
- 	res.render("index", {layout:"index-body.handlebars"});
+ 	res.render("index-body", {layout:"main.handlebars"});
 });
 router.get("/portfolio", function(req, res){
 	//enter object for portfolio art
 
- 	res.render("index", {layout:"portfolio.handlebars"});
+ 	res.render("portfolio", {layout:"main.handlebars"});
 });
 router.get("/contact", function(req, res){
 	//enter object for contact info
- 	res.render("index", {layout:"contact.handlebars"});
+ 	res.render("contact", {layout:"main.handlebars"});
 });
 router.get("/resume", function(req, res){
 	//redirect to resume pdf
- 	res.render("index", {layout:"index.handlebars"});
+ 	res.render("index", {layout:"main.handlebars"});
 });
 module.exports = router;
 
