@@ -32,7 +32,7 @@ router.get("/", function(req, res){
 router.get("/portfolio", function(req, res){
 	//enter object for portfolio art
 
- 	res.render("portfolio", {layout:"main.handlebars"});
+ 	res.render("portfolio-body", {layout:"portfolio.handlebars"});
 });
 router.get("/contact", function(req, res){
 	//enter object for contact info
