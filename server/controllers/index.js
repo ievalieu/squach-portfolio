@@ -31,6 +31,13 @@ router.get("/", function(req, res){
 });
 router.get("/portfolio", function(req, res){
 	//enter object for portfolio art
+	var project = {
+		title: req.body.title,
+		description: req.body.description,
+		category: req.body.catergory,
+		tags: [],
+		image: req.body.image,
+	};
 
  	res.render("portfolio-body", {layout:"portfolio.handlebars"});
 });
