@@ -37,12 +37,19 @@ router.get("/portfolio", function(req, res){
 		category: req.body.catergory,
 		tags: [],
 		image: req.body.image,
-	};
+	}
 
  	res.render("portfolio-body", {layout:"portfolio.handlebars"});
 });
 router.get("/contact", function(req, res){
 	//enter object for contact info
+	var contact = {
+		name: req.body.name,
+		email: req.body.email,
+		subject: req.body.subject,
+		body: req.body.body
+	}
+
  	res.render("contact", {layout:"main.handlebars"});
 });
 router.get("/resume", function(req, res){
