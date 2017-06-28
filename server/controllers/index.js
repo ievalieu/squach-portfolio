@@ -39,7 +39,7 @@ router.get("/portfolio", function(req, res){
 		image: req.body.image,
 	}
 
- 	res.render("portfolio-body", {layout:"portfolio.handlebars"});
+ 	res.render("portfolio-body", {layout:"portfolio.handlebars"}, project);
 });
 router.get("/contact", function(req, res){
 	//enter object for contact info
@@ -50,7 +50,7 @@ router.get("/contact", function(req, res){
 		body: req.body.body
 	}
 
- 	res.render("contact", {layout:"main.handlebars"});
+ 	res.render("contact", {layout:"main.handlebars"}, contact);
 });
 router.get("/resume", function(req, res){
 	//redirect to resume pdf
