@@ -17,6 +17,12 @@
 	display: flex;
 	flex-flow: column;
 }
+button {
+	width: 100px;
+	height: 25px;
+	background: #333;
+	color: #fff;
+}
 /*Laptops/Desktop*/
 @media screen and (min-width: 1240px){
 	body {
