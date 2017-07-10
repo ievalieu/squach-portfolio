@@ -24,14 +24,14 @@ var router = express.Router();
 // 		// res.redirect("/");
 // 	}
 // }
-function pushProject() {
-	var projectArray = [];
-	for(var i=0; i<10; i++) {
-		projectArray[i];
-		console.log(projectArray[i]);
-	}
-	return project;
-}
+// function pushProject() {
+// 	var projectArray = [];
+// 	for(var i=0; i<10; i++) {
+// 		projectArray[i];
+// 		console.log(projectArray[i]);
+// 	}
+// 	return project;
+// }
 
 router.get("/", function(req, res){
  	res.render("index-body", {layout:"main.handlebars"});
@@ -46,7 +46,7 @@ router.get("/portfolio", function(req, res){
 		image: req.body.image,
 	}
 
- 	res.render("portfolio-body", {layout:"portfolio.handlebars"}, project);
+ 	res.render("portfolio-body", {layout:"portfolio.handlebars"});
 });
 router.get("/contact", function(req, res){
 	//enter object for contact info
