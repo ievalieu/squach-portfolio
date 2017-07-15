@@ -5,7 +5,16 @@ var Schema = mongoose.Schema;
 
 //User Schema
 var TagSchema = new Schema({
-	
+	name: {
+		type: String,
+		index: true
+	},
+	description: {
+		type: String
+	},
+	count: {
+		type: Number
+	}
 });
 
 var Tag = module.exports = mongoose.model("Tag", TagSchema);
